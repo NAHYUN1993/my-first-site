@@ -11,7 +11,6 @@ export function Footer() {
   
   // 헤더의 네비게이션 데이터 가져오기 - 기본값 설정
   const [navItems, setNavItems] = useState<Array<{name: string, url: string}>>([
-    { name: "소개", url: "#about" },
     { name: "프로젝트", url: "#projects" },
     { name: "연락처", url: "#contact" }
   ])

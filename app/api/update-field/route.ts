@@ -17,7 +17,6 @@ export async function POST(request: NextRequest) {
     // 📁 수정 가능한 컴포넌트 파일들
     const componentFiles: Record<string, string> = {
       'hero': 'components/hero.tsx',
-      'about': 'components/about.tsx',
       'projects': 'components/projects.tsx',
       'contact': 'components/contact.tsx',
       'footer': 'components/footer.tsx',

@@ -106,12 +106,6 @@ export function Hero() {
     saveData('hero-social-links', newLinks)
   }
 
-  const scrollToAbout = () => {
-    const aboutSection = document.querySelector("#about")
-    if (aboutSection) {
-      aboutSection.scrollIntoView({ behavior: "smooth" })
-    }
-  }
 
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects")
@@ -262,13 +256,6 @@ export function Hero() {
           </div>
         </div>
 
-        {/* 스크롤 인디케이터 */}
-        <button
-          onClick={scrollToAbout}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
-        >
-          <ArrowDown className="h-6 w-6 text-muted-foreground" />
-        </button>
       </section>
       
       {/* 소셜 링크 편집 모달 */}

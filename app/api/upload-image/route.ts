@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData()
     const file = formData.get('file') as File
-    const purpose = formData.get('purpose') as string || 'general' // hero-profile, hero-background, about-image 등
+    const purpose = formData.get('purpose') as string || 'general' // hero-profile, hero-background, project-image 등
     const oldPath = formData.get('oldPath') as string || '' // 기존 파일 경로
     
     if (!file) {

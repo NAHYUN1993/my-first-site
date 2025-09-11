@@ -5,8 +5,6 @@ export function resetImagePaths() {
   const keysToClean = [
     'portfolio-hero-info',
     'portfolio-hero-background', 
-    'portfolio-about-info',
-    'portfolio-about-background',
     'portfolio-projects'
   ]
   

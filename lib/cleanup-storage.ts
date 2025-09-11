@@ -5,8 +5,6 @@ export function cleanupInvalidImages() {
   const keysToCheck = [
     'portfolio-hero-info',
     'portfolio-hero-background',
-    'portfolio-about-info',
-    'portfolio-about-background',
     'portfolio-projects',
     'portfolio-contact-info'
   ]
