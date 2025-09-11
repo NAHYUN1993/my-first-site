@@ -31,7 +31,7 @@ export function Footer() {
     contactTitle: "연락처",
     phone: "010-8220-0715",
     email: "yk6838@naver.com",
-    location: "당신의 위치",
+    location: "수원, 경기도",
     copyright: "",
     showMadeWith: true,
     madeWithLocation: "Mrbaeksang",
