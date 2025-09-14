@@ -40,7 +40,7 @@ export function Hero() {
     name: "NA HYUN",
     title: "콘텐츠 제작자",
     description: "편집의 디테일과 AI의 확장을 잇는 콘텐츠 크리에이터",
-    profileImage: "/uploads/hero-profile-1756960549576.png",
+    profileImage: "/uploads/nahyun-profile.png",
     background: {"image":"","video":"","color":"","opacity":0.1},
     projectButton: "프로젝트 보기"
   }
